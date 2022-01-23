@@ -1,0 +1,78 @@
+
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: black;
+  font-family: fantasy;
+  background-color: red;
+  border: 5px white;
+
+}
+
+.text{
+  border-radius: 20px;
+  width: 100%;
+  font-size: 15px;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+
+}
+form{
+
+  background-color: pink;
+  width: 40%;
+  border-radius: 200px ;
+  padding-left: 300px;
+  padding-top: 	120px;
+  padding-right: 300px;
+  padding-bottom: 90px;
+  margin-top: 200px;
+
+
+}
+p{
+  color: grey;
+  margin-left: 275px;
+  font-size: 20px;
+}
+.sous-titre{
+  color: grey	;
+  margin-left: 275px;
+  font-size: 20px;
+}
+.check{
+margin-left: 0;
+margin:0;
+padding: 0;
+}
+
+.titre{
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+button{
+  width: 90%;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
+
+}
+.sous-titre{
+  font-size: 22px;
+  margin-left: 0px;
+  margin-top: 0;
+}
+.villenatale{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

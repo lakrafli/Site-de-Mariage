@@ -1,0 +1,208 @@
+.a{    font-family: 'Wittierly', sans-serif;
+                                                                                          
+}   
+nav{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background-color: pink;/*pour changer la couleur de menu*/
+    position: sticky;
+    top: 0px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    float: left;
+    width: 20%;/*100% divisé par le nombre d'éléments de menu*/
+    /* text-align: center;/*Centre le texte dans les éléments de menu*/ */
+	
+}
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block; /*Toute la surface sera cliquable*/
+    text-decoration: none;
+    color: white;
+    border-bottom: 10px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
+    padding: 5px 0px;/*Agrsandit le menu et espace la bordure du texte*/
+}
+nav a:hover{
+    color: #808080;
+    border-bottom: 2px solid white;
+}
+                                
+img{
+    height: 100px; /* hauteur */
+    width: 200px; /* largeur */
+    margin: 15px 0; /* marges ext. */
+    transition: 1s; /* effet progressif de transition : 1 seconde */
+}
+img:hover { /* la taille est augmentée lors du survol et l'image décalée par le margin */
+    height: 200px;
+    width: 400px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    height: 100px; /* hauteur */
+    width: 200px; /* largeur */
+    margin: 15px 0; /* marges ext. */
+    transition: 1s; /* effet progressif de transition : 1 seconde */
+}
+img:hover { /* la taille est augmentée lors du survol et l'image décalée par le margin */
+    height: 200px;
+    width: 400px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('https://i.ibb.co/4d8CYtM/background-header.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 40px;
+}
+header h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+header h4{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+header button{
+    padding: 10px 20px;
+    background-color: #fff;
+    color:#000;
+    border:none;
+    margin-bottom: 30px;
+    outline:none;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.main .content .card .left{
+   flex: 0 0 30%;
+   padding: 20px;
+   background-color:#F2D2BD	;
+   color:#fff;
+}
+.main .content .card .right img{
+    height:300px;
+    width: 400px;
+    margin-top: 5px;
+}
+.main .content .card .right2 img{
+    height:300px;
+    width: 400px;
+margin-top: 5px;}
+
+
+footer{
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color:PINK ;/*changer couleur pied de page*/
+    color: #fff;
+    padding: 30px 100px;;
+}
+footer h1{
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid white;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .services{
+    margin-top: -10px;
+    display:flex;
+    flex-wrap:wrap;
+}
+footer .services .service{
+    margin-right: 30px;
+}
+footer .services .service p{
+    max-width: 300px;
+}
+footer #contact{
+    color: pink;/* changer couleur de ligne contact*/
+}
+
+@media screen and (max-width:680px){
+    nav .onglets {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .main .card {
+        margin: 10px;
+    }
+    .main .content .card .right img{
+        height:200px;
+        width: 100%;
+        margin-top: -0px;
+    }
+    .main .content .card{
+        display: block;
+    }
+    footer{
+        padding: 30px;
+    }
+
+
+
+.services a{
+    display: block; /*Toute la surface sera cliquable*/
+    text-decoration: none;
+    color: white;
+    border-bottom: 10px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
+    padding: 5px 0px;/*Agrsandit le menu et espace la bordure du texte*/
+}
+
+.services p{
+    display: block; /*Toute la surface sera cliquable*/
+    text-decoration: none;
+    color: white;
+   
+}
